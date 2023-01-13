@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Creepster");
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+html,
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+canvas {
+  background: radial-gradient(rgb(150, 200, 150), rgb(50, 100, 50));
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  color: crimson;
+  background-color: black;
+  padding: 12px, 48px, 12 px, 48 px;
+  border-radius: 4px;
+  border: 2px solid gray;
+}
