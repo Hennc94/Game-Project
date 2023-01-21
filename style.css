@@ -1,24 +1,39 @@
-@import url("https://fonts.googleapis.com/css?family=Creepster");
-@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-
-html,
 body {
-  margin: 0;
-  overflow: hidden;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+    background-image: url(https://t4.ftcdn.net/jpg/04/25/74/29/360_F_425742955_QH2nJTiyl7N0YWzbCjQoH6fEGyNaiFrz.jpg);
+    background-size:cover;
 }
 
-canvas {
-  background: radial-gradient(rgb(150, 200, 150), rgb(50, 100, 50));
+#board {
+    height: 540px;
+    width: 600px;
+    background-color: rgb(248, 252, 5);
+    border: 10px solid rgb(7, 7, 7);
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  color: crimson;
-  background-color: black;
-  padding: 12px, 48px, 12 px, 48 px;
-  border-radius: 4px;
-  border: 2px solid gray;
+.tile {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+
+    /* Circle */
+    background-color: rgb(252, 252, 252);
+    border-radius: 50%;
+    border: 2px solid rgb(0, 0, 0);
 }
+
+.purple-piece {
+    background-color: rgb(148, 5, 231);
+}
+
+.green-piece {
+    background-color: rgb(27, 250, 7);
+}
+
+
+ 
+

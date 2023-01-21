@@ -4,13 +4,7 @@ This is my game I'm building along with SEV9.
 # MVP
 *Minimal Viable Product*
 
-- A character that shoots
-- Targets (enemies)
-- Moving Targets 
-- Moving character
-- Scoreboard
-- Lives Counter
-- Lose life when enemy runs into character
+- 
 
 # PMVP
 *Post Minimal Viable Product*
@@ -21,10 +15,8 @@ This is my game I'm building along with SEV9.
 
 # Play Instructions
 
- - The objective of the game is to defeat as many "necromorphs" as possible! 
- - Player moves with W(up), A(left), S(down), D(right)
- - Press R to reload
- - Player has three lives before it's Game Over
+ - This is Connect Four, either player must make an attempt to match four spaces in a row to win.
+ - Spaces are occupied starting from the bottom up
 
   
 # Wireframes
