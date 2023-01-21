@@ -3,7 +3,6 @@ This is my game I'm building along with SEV9.
 
 # MVP
 *Minimal Viable Product*
-
 - 
 
 # PMVP
@@ -15,7 +14,7 @@ This is my game I'm building along with SEV9.
 
 # Play Instructions
 
- - This is Connect Four, either player must make an attempt to match four spaces in a row to win.
+ - This is Connect Four, both players must make an attempt to match four spaces in a row to win.
  - Spaces are occupied starting from the bottom up
 
   

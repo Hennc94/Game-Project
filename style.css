@@ -1,8 +1,8 @@
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
     background-image: url(https://t4.ftcdn.net/jpg/04/25/74/29/360_F_425742955_QH2nJTiyl7N0YWzbCjQoH6fEGyNaiFrz.jpg);
-    background-size:cover;
+    background-size: cover;
 }
 
 #board {
@@ -26,6 +26,10 @@ body {
     border: 2px solid rgb(0, 0, 0);
 }
 
+.tile:hover {
+    background-color: red;
+}
+
 .purple-piece {
     background-color: rgb(148, 5, 231);
 }
@@ -34,6 +38,16 @@ body {
     background-color: rgb(27, 250, 7);
 }
 
+p {
+    color: rgb(249, 253, 1);
+    text-align: unset;
+    text-transform: uppercase;
 
- 
+}
 
+input[type='reset'] {
+    font-size: larger;
+    font-style: italic;
+    font-family: fantasy;
+    background-color: crimson
+}

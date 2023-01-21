@@ -79,7 +79,7 @@ function checkWinner() {
     }
   }
 
-  // vertical check (checking four spaces at a time at indices 0-3, when)
+  // vertical check (checking four spaces at a time at indices 0-3, w)
   for (let c = 0; c < columns; c++) {
     for (let r = 0; r < rows - 3; r++) {
       if (board[r][c] != ' ') {
@@ -125,6 +125,17 @@ function playerWinner(r, c) {
   }
   gameOver = true
 }
+
+function reset(){
+let resetGame = document.getElementsByClassName("controls")
+if(gameOver == true){
+  reset.addEventListener('click', resetGame)
+}
+}
+
+
+
+
 
 // let turn = 1
 // document.querySelectorAll("ul li").forEach((e) => {
