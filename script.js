@@ -65,7 +65,7 @@ function placePiece() {
   checkWinner()
 }
 
-//Window sliding Technique
+//Window sliding
 function checkWinner() {
   // horizontal check (checking four spaces at a time at indices 0-3, when row has been checked, move down one row)
   for (let r = 0; r < rows; r++) {
@@ -127,15 +127,10 @@ function playerWinner(r, c) {
 }
 
 function reset(){
-let resetGame = document.getElementsByClassName("controls")
-if(gameOver == true){
-  reset.addEventListener('click', resetGame)
-}
-}
-
-
-
-
+  board.innerHTML="" 
+  loadDOM() 
+  restart.style.display="none" 
+  }
 
 // let turn = 1
 // document.querySelectorAll("ul li").forEach((e) => {
