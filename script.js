@@ -126,11 +126,10 @@ function playerWinner(r, c) {
   gameOver = true
 }
 
-function reset(){
-  board.innerHTML="" 
-  loadDOM() 
-  restart.style.display="none" 
-  }
+document.querySelector('.restart-btn').addEventListener('click', function(){
+  window.location.reload();
+  return false;
+});
 
 // let turn = 1
 // document.querySelectorAll("ul li").forEach((e) => {

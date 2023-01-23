@@ -45,9 +45,9 @@ p {
 
 }
 
-input[type='reset'] {
+.restart-btn{
     font-size: larger;
     font-style: italic;
     font-family: fantasy;
-    background-color: crimson
+    background-color: crimson;
 }
